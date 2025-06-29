@@ -1,0 +1,8 @@
+{
+    "priority": 3,
+    "title": "NetflixGPT",
+    "shortDescription": "Netflix‑style web app with Firebase auth, ChatGPT‑powered recommendations, multi‑language support, and responsive UI.",
+    "cover": "https://res.cloudinary.com/dpdz5x4go/image/upload/v1751203278/Netflixgpt_luj07w.png",
+    "livePreview": "https://zingy-semolina-2c12ed.netlify.app/",
+    "siteAge": "2 months old"
+  }
