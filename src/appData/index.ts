@@ -2,7 +2,6 @@
 import {
   ExpressjsIcon,
   JavaScriptIcon,
-  NestjsIcon,
   NextjsIcon,
   NodejsIcon,
   Postgresql,
