@@ -15,7 +15,7 @@ const navItems = [
     label: '_projects',
     href: '/#projects',
   },
-    {
+  {
     label: '_experience',
     href: '/#experience',
   },
@@ -66,12 +66,21 @@ const Navbar = () => {
               className="border-border flex items-center border-b px-4 text-2xl md:border-y-0 md:border-e md:text-base md:first:border-s md:last:ml-auto md:last:border-none md:last:px-0 lg:px-8">
               <Link
                 href={href}
-                className={`text-primary-content hover:text-neutral w-full py-7 transition-all duration-150 md:py-0 ${pathname === href ? 'text-neutral cursor-text' : ''}`}>
+                className={`text-white hover:text-neutral w-full py-7 transition-all duration-150 md:py-0 ${pathname === href ? 'text-neutral cursor-text' : ''}`}>
                 {label}
               </Link>
             </li>
           ))}
+          <div className='p-4'>
+            <Link
+              target='_blank'
+              href={'https://drive.google.com/file/d/1k5cVJmUJwC-7L1kfUmClmVunMEIWjcds/view'}
+              className={`text-white hover:text-neutral w-full py-7 transition-all duration-150 md:py-0 `}>
+              _resume
+            </Link>
+          </div>
         </ul>
+
       </div>
     </nav>
   )
