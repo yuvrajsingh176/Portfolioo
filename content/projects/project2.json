@@ -4,5 +4,7 @@
     "shortDescription": "Turns rough wireframe sketches into responsive frontend code using OpenRouter and stores projects with NeonDB + Drizzle.",
     "cover": "https://res.cloudinary.com/dpdz5x4go/image/upload/v1751203277/Wireframe_ecqxag.png",
     "livePreview": "https://wireframe-to-code-eta.vercel.app/",
-    "siteAge": "1 month old"
+    "siteAge": "1 month old",
+    "techStack":"Next.js, Cloudinary, Firebase Auth, OpenRouter, Tailwind CSS, PostgreSQL, NeonDB, Drizzle"
+
   }

@@ -27,6 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
     siteAge,
     type,
     cover,
+    techStack
   } = data
   return (
     <div className="bg-secondary border-border flex flex-col justify-between rounded-[14px] border p-5">
@@ -64,8 +65,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ data }) => {
       </div>
 
       <div>
-        <div className="bg-primary text-primary-content my-4 h-[100px] overflow-scroll rounded-2xl px-4 py-2">
+        <div className="bg-primary text-primary-content my-4 h-fit overflow-scroll rounded-2xl px-4 py-2">
           <p className="text-[14px] font-normal md:text-base">{shortDescription}</p>
+          {techStack && (
+            <p className=" text-sm text-muted-foreground md:text-base">
+              <span className="font-medium text-secondary-content">Tech Stack:</span> {techStack}
+            </p>
+          )}
         </div>
         <div className="flex gap-5">
           {livePreview && (
